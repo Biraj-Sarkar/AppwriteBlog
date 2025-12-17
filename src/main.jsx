@@ -67,10 +67,7 @@ const router = createBrowserRouter(
         },
       ],
     }
-  ], 
-  {
-    basename: '/AppwriteBlog'   // ✅ THIS is the correct place
-  }
+  ],
 )
 
 createRoot(document.getElementById('root')).render(
